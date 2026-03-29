@@ -5,8 +5,8 @@
  */
 
 :root {
-	--accent: #2337ff;
-	--accent-dark: #000d8a;
+	--accent: #1a1a2e;
+	--accent-dark: #0a0a1a;
 	--black: 15, 18, 25;
 	--gray: 96, 115, 159;
 	--gray-light: 229, 233, 240;
@@ -31,7 +31,7 @@
 	font-display: swap;
 }
 body {
-	font-family: "Atkinson", sans-serif;
+	font-family: "Atkinson", "Noto Sans JP", sans-serif;
 	margin: 0;
 	padding: 0;
 	text-align: left;
@@ -80,9 +80,10 @@ b {
 }
 a {
 	color: var(--accent);
+	transition: color 0.2s ease;
 }
 a:hover {
-	color: var(--accent);
+	color: var(--accent-dark);
 }
 p {
 	margin-bottom: 1em;
